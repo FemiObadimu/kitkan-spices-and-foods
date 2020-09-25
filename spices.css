@@ -1,0 +1,338 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+}
+
+
+body{
+    background-color:#f2f2f2;
+}
+
+#nav-bar{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: center;
+}
+
+
+.logoname{
+    padding: 20px;
+    margin-right: auto;
+    font-size: 25px;
+
+}
+
+
+.nav-links ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: center;
+}
+
+
+
+.nav-links ul li{
+    padding: 20px 25px;
+
+}
+
+.nav-links ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+.menubar{
+    padding: 25px 20px;
+    display: none;
+}
+
+.top-image{
+    width: 100%;
+    height: 550px;
+    background-image: url(spices-image/indian4.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.text1{
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    padding: 70px 0px;
+    font-family: 'Times New Roman', Times, serif;
+    animation: slide-right 3s ease;
+}
+
+.text2{
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+    text-align: center;
+}
+
+.btn{
+    padding: 10px 0px;
+    text-align: center;
+}
+
+button{
+    color: white;
+    padding: 10px 30px;
+    background-color:rgb(16, 94, 212);
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover{
+    color: white;
+    background-color: #000;
+
+}
+
+#img-house{
+    padding: 50px 100px;
+    text-align: center;
+}
+
+.text3{
+    text-align: start;
+    font-size: 30px;
+    background-color:#f2f2f2;
+    padding: 25px 0px;
+}
+
+.img{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: center;
+   
+}
+
+.text4{
+    padding: 25px;
+    text-align: center;
+    font-size: 20px;
+    
+}
+
+.img div{
+    border: none;
+    border-radius: 10px;
+    background-color: #fff;
+    
+}
+
+
+.clr{
+    width: 100%;
+    height: 30px;
+}
+
+.text5{
+    border: none;
+    padding: 20px 250px;
+    text-align: center;
+    font-size: 20px;
+    border-radius: 20px;
+    background-color: #fff;
+}
+
+.text5 a{
+    text-decoration: none;
+    color:rgb(16, 94, 212);
+}
+
+.bottom-img{
+    background-image: url(spices-image/tumeric.jpg);
+    width: 100%;
+    height: 300px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.text6{
+    text-align: center;
+    color: #fff;
+    font-size: 35px;
+    padding: 70px 0px;
+}
+
+.clients{
+    padding: 50px 100px;
+}
+
+.text7{
+    text-align: center;
+    font-size: 30px;
+    padding: 20px 0px;
+
+}
+
+.image-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+
+.slider-test{
+    animation: slide-up 3.1s ease;
+}
+
+.test1{
+    border: none;
+    border-radius: 50%;
+    
+}
+
+.text-name{
+    padding: 20px;
+    font-size: 20px;
+    animation: slide-right 3.1s ease;
+}
+
+.text-words{
+    padding: 20px;
+    animation: slide-right 3.1s ease ;
+}
+
+
+.contact{
+    text-align: center;
+}
+
+form{
+    border: none;
+    border-radius: 20px;
+    text-align: center;
+    padding: 20px;
+    
+    box-sizing: border-box;
+}
+
+
+.inn{
+    padding: 30px 20px;
+    display: inline-block;
+    text-align: start;
+}
+
+.text8{
+    font-size: 25px;
+    color:rgb(16, 94, 212);
+}
+
+#enter{
+    width: 300px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    background-color: #fff;
+    font-size: 20px;
+    padding: 5px 10px ;
+}
+
+
+.text9{
+    border: none;
+    padding: 20px 250px;
+    text-align: center;
+    font-size: 20px;
+    color: #fff;
+    background-color:rgb(16, 94, 212);
+
+}
+
+.text9 a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.icons{
+    text-align: center;
+    cursor: pointer;
+}
+
+i{
+    padding: 20px;
+}
+
+.fa-angle-down{
+    padding: 5px;
+}
+
+
+@keyframes slide-right {
+    0%{
+        transform: translateX(-500px);
+    }
+    100%{
+        transform: translateX(0px);
+    }
+}
+
+.foot{
+    background: rgb(16, 94, 212);
+    text-align: center;
+}
+
+.end{
+    font-size: 20px;
+    padding: 10px 0px;
+    color: white;
+}
+
+
+@keyframes slide-up {
+    0%{
+        transform: translateY(-500px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+}
+
+
+
+
+@media(max-width:767px){
+    .text5{
+        padding: 20px 30px;
+        text-align: center;
+    }
+    .text9{
+        padding: 20px 30px;
+        text-align: center;
+    }
+    .menubar{
+        display: block;
+        top: 35px;
+        cursor: pointer;
+        
+    }
+    .list{
+        display: none;
+
+    }
+
+    .nav-links ul li{
+        text-align: right;
+        flex-direction: column;
+        position: relative;
+    }
+}
